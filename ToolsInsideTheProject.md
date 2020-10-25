@@ -31,5 +31,7 @@ _Updated: 2020-10-23_
   - Allow to listen to the use of the mouse and keyboard outside of the application to associate action to it. (WARNING: don't trust application using this toolbox blindly, because that very dangerous. It is also why my project will always be open source and controllable by the community)
 
 ### Used as a Runtime
-
+The application OMI is a software that try to understand what the user want and send 80% of the actions to do to a receiver call JOMI for Java Open Macro Input.
+This application listen to network request to do action on the device. 
+You can find the code of it here.
 - https://github.com/EloiStree/2020_04_10_JavaOpenMacroInputRuntime
