@@ -1,1 +1,1 @@
-s
+https://eloistree.page.link/whatisomi
