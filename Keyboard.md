@@ -1,6 +1,7 @@
 
 # Listen able by Window in JOMI
-  A,
+```
+    A,
     B,
     C,
     D,
@@ -62,19 +63,16 @@
     Alpha7,
     Alpha8,
     Alpha9,
-
     Up,
     Down,
     Right,
     Left,
-
     PageUp,
     PageDown,
     Home,
     End,
     Insert,
     Delete, DEL,
-
     F1,
     F2,
     F3,
@@ -99,7 +97,6 @@
     F22,
     F23,
     F24,
-
     WinUS_OEM_Comma,
     WinUS_OEM_Period,
     WinUS_OEM_Minus,
@@ -112,48 +109,35 @@
     WinUS_OEM_5_BackSlash,
     WinUS_OEM_6_RightBlacket,
     WinUS_OEM_7_Quote,
-
     Space, SP,
     CapsLock,
     Backspace, BS,
     Tab, HT,
-
     Shift,
     LeftShift,
     RightShift,
-
     Control,
     LeftControl,
     RightControl,
-
     Menu,
     Alt,
     AltGr,
     LeftAlt,
     RightAlt,
     ContextMenu,
-
     Application,
-
     Break,
     ScrollLock,
     Print,
     PrintScreen,
     Help,
     SystemRequest,
-
-
-
-
     MouseLeft,
     MouseRight,
     MouseMiddle,
     MouseSupp1,
     MouseSupp2,
     MouseSupp3,
-
-
-
     EndOfText, ETX,
     Escape, ESC,
     Null, NUL,
@@ -163,16 +147,11 @@
     InformationSeparatorFour, FS,
     LineFeed, LF,
     Return, Enter, CarriageReturn, CR,
-
-
-
     Eject,
     LaunchApplicationOne,
     LaunchApplicationTwo,
     LaunchMail,
     Sleep, Power, WakeUp,
-
-
     Select,
     Execute,
     Clear,
@@ -185,7 +164,6 @@
     VolumeDown,
     VolumeUp,
     Zoom,
-
     BrowserBack,
     BrowserForward,
     BrowserFavorites,
@@ -193,8 +171,6 @@
     BrowserRefresh,
     BrowserSearch,
     BrowserStop,
-
-
     Meta,
     MetaLeft,
     MetaRight,
@@ -202,8 +178,6 @@
     RightWindow,
     LeftCommand,
     RightCommand,
-
-
     Convert,
     KanaMode,
     Lang1,
@@ -212,8 +186,10 @@
     Lang4,
     Lang5,
     NonConvert
+```
 
 ## Triggerable on JOMI
+```
 VK_ENTER
 VK_BACK_SPACE
 VK_TAB
@@ -396,4 +372,4 @@ KEY_LOCATION_STANDARD
 KEY_LOCATION_LEFT
 KEY_LOCATION_RIGHT
 KEY_LOCATION_NUMPAD
-
+```
