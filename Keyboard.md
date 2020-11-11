@@ -1,5 +1,5 @@
 
-# Listen able by Window in JOMI
+# Listenable by Window in JOMI
 ```
     A,
     B,
