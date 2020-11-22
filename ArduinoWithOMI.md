@@ -1,3 +1,41 @@
+To make it short, you can write all the input of your Arduino project as such #01010|136464.  
+#digital from 0-1|analogvaluefrom 0-9  
+
+And the following file in the OMI program with translate them to boolean named usable to trigger actions.
+
+Example
+```#1100|3```
+- D0 : Foot left at down is pressed
+- D1 : Foot right at down is pressed
+- D2 : Foot left at top is release
+- D3 : Foot right at top is release
+- A1 : Light of the room is almost dark
+
+
+
+
+Example:
+```
+<?xml version="1.0" encoding="utf-8"?>
+
+<AnalogDigitalCompressConfig>
+
+  <PortConnections>
+    <PortConnection portId="20" patternName="Foot with four buttons and light" />
+  </PortConnections>
+  <AnalogDigitalCompressPatterns>
+      <AnalogDigitalCompressPattern name="Foot with four buttons and light" docUrl="">
+        <digit index="0" label="FootLD" />
+        <digit index="1" label="FootRD" />
+        <digit index="2" label="FootLT" />
+        <digit index="3" label="FootRT" />
+        <analog index="0" label="LightOfRoom" from="5" to="9"/>
+      </AnalogDigitalCompressPattern>
+   </AnalogDigitalCompressPatterns>
+</AnalogDigitalCompressConfig>
+```
+
+
 File structure use to rename the input to boolean
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -54,74 +92,3 @@ File structure use to rename the input to boolean
 ```
 
 
-Example:
-```
-<?xml version="1.0" encoding="utf-8"?>
-
-<AnalogDigitalCompressConfig>
-
-  <PortConnections>
-    <PortConnection portId="20" patternName="Custom" />
-  </PortConnections>
-  <AnalogDigitalCompressPatterns>
-    <AnalogDigitalCompressPattern name="Left Hand Pad V1" docUrl="">
-      <analog index="0" label="PTR" from="5" to="9" />
-      <analog index="1" label="PTL" from="5" to="9"/>
-      <analog index="2" label="PDR" from="5" to="9"/>
-      <analog index="3" label="PDL" from="5" to="9"/>
-      <analog index="4" label="FingerDown" from="5" to="9"/>
-      <analog index="5" label="FingerTop" from="5" to="9"/>
-      <analog index="6" label="FingerMiddle" from="6" to="9"/>
-      <analog index="7" label="ThumbDown" from="8" to="9"/>
-      <analog index="8" label="ThumbUp" from="5" to="9"/>
-      <analog index="9" label="Hand" from="5" to="9"/>
-    </AnalogDigitalCompressPattern>
-    <AnalogDigitalCompressPattern name="Wood Adaptator" docUrl="">
-      <analog index="0" label="WAPin0" from="5" to="9" />
-      <analog index="1" label="WAPin1" from="5" to="9"/>
-      <analog index="2" label="WAPin2" from="5" to="9"/>
-      <analog index="3" label="WAPin3" from="5" to="9"/>
-      <analog index="4" label="WAPin4" from="5" to="9"/>
-      <analog index="5" label="WAPin5" from="5" to="9"/>
-      <analog index="6" label="WAPin6" from="5" to="9"/>
-    </AnalogDigitalCompressPattern>
-    <AnalogDigitalCompressPattern name="Footboard Left Foot" docUrl="">
-      <digit index="0" label="FootLeftTopMiddle" />
-      <digit index="1" label="FootLeftTop" />
-      <digit index="2" label="FootLeftDown" />
-      <digit index="3" label="FootLeftDownMiddle" />
-      <digit index="4" label="FootLeftTop" />
-      <digit index="5" label="FootLeftDown" />
-    </AnalogDigitalCompressPattern> 
- <AnalogDigitalCompressPattern name="Foot 4 Simple Buttons" docUrl="">
-      <digit index="5" label="Foot4PadRD" />
-      <digit index="2" label="Foot4PadLT" />
-      <digit index="7" label="Foot4PadRT" />
-      <digit index="4" label="Foot4PadLD" />
-    </AnalogDigitalCompressPattern>
-<AnalogDigitalCompressPattern name="Foot 4+5 Simple Buttons" docUrl="">
-      <digit index="0" label="Foot45RD" />
-      <digit index="1" label="Foot45LT" />
-      <digit index="2" label="Foot45RT" />
-      <digit index="3" label="Foot45LD" />
-      <digit index="5" label="Foot45BLeft" />
-      <digit index="8" label="Foot45BRight" />
-      <digit index="6" label="Foot45BCenterTop" />
-      <digit index="4" label="Foot45BCenter" />
-      <digit index="7" label="Foot45BCenterDown" />
-      </AnalogDigitalCompressPattern>
-  </AnalogDigitalCompressPatterns>
- <AnalogDigitalCompressPattern name="Custom" docUrl="">
-      <digit index="10" label="CustomRD" />
-      <digit index="9" label="CustomLT" />
-      <digit index="7" label="CustomRT" />
-      <digit index="8" label="CustomLD" />
-      <digit index="3" label="CustomAltLeft" />
-      <digit index="1" label="CustomAltRight" />
-      <digit index="2" label="CustomLeft" />
-      <digit index="0" label="CustomMidLeft" />
-      <digit index="6" label="CustomMidRight" />
-      <digit index="4" label="CustomRight" />
-    </AnalogDigitalCompressPattern>
-</AnalogDigitalCompressConfig>
-```
