@@ -155,3 +155,29 @@ Allows to use Arduino input, or other ,in the project by renaming them and liste
 See [tutorial on how to use Arduino with the project](ArduinoWithOMI) 
 
 
+
+
+
+# Other File
+## .copypastfile
+Allows you to set some text to copy past when your request it.
+
+
+## .jomimacro
+```
+☗name SOS with Gun
+☗callid sosfire
+☗description Do the SOS morse sound with the shot of your gun in game
+500♦ms:l
+1000♦ms:l
+1500♦ms:l
+2000♦ms:l
+2200♦ms:l
+2500♦ms:l
+2700♦ms:l
+3000♦ms:l
+3200♦ms:l
+3500♦ms:l
+4000♦ms:l
+4500♦ms:l
+```
