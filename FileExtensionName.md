@@ -164,6 +164,8 @@ Allows you to set some text to copy past when your request it.
 
 
 ## .jomimacro
+This file allows you to store actions to send at Java Open Macro Input (JOMI) a port of the software that execute what you request it. And here you can give precise timing in MS to be executed.
+
 ```
 ☗name SOS with Gun
 ☗callid sosfire
