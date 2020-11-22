@@ -12,6 +12,9 @@ Example
 - A1 : Light of the room is almost dark
 
 
+Meaning that now you can made condition like this:
+FootLD + FootRD then do something.
+!FootLD + !FootRD +!FootLT + !FootRT then pause the game.
 
 
 Example:
@@ -90,5 +93,18 @@ File structure use to rename the input to boolean
   </xs:element>
 </xs:schema>
 ```
+
+## Arduino example of code
+###  Simple Button
+"Do to later ping me if your need this code"
+
+###  Light Sensor
+"Do to later ping me if your need this code"
+
+###  Magnet
+"Do to later ping me if your need this code"
+
+###  Paint / Capacitive sensor
+"Do to later ping me if your need this code"
 
 
