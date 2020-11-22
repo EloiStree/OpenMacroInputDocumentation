@@ -7,7 +7,7 @@ In resume, Linear are quick but "dirty" and XSD/XML are clear but take time to d
 
 #Linear
 ## Simple
-### .app2boolean
+### .apptoboolean
 This file allows you to define a boolean value based on the focus of an application.
 Example:
 ```
