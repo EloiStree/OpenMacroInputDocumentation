@@ -15,13 +15,13 @@ Apex♦ Apex Legends
 VisualStudio♦\s-\sMicrosoft\sVisual\sStudio
 ```
 
-### .bools2bool
+### .boolstobool
 This file allows you to quickly convert a boolean condition to a new boolean. 
 Example: 
 ```
 FootLeftRelease + FootRightRelease ♦  FeetRelease
 ```
-### .keyboard2boolean
+### .keyboardtoboolean
 This file allow you to name the keyboard key to a boolean value independently of the platform (Mac, Window, Linux, Android...) (The read of the keyboard work  only on Window for the moment)
 ```
 Z♦MoveForward
@@ -30,7 +30,7 @@ Q♦MoveLeft
 D♦MoveRight
 
 ```
-### .windowkey2boolean
+### .windowkeytoboolean
 This file allow you to name the keyboard key of a window keyboard to a boolean.
 ```
 volume_up♦VolumeUp
@@ -42,7 +42,7 @@ f20♦RequestScreenshot
 ```
 
 
-### .file2bool
+### .filetobool
 This file allows you to create boolean that you just change once in a while. 
 Example:
 ```
@@ -89,7 +89,7 @@ Example:
 ```
 
 
-### .screenzone2boolean
+### .screenzonetoboolean
 Allows to named a part of screen as a boolean value. (The values are in pourcent)
 Example:
 ```
