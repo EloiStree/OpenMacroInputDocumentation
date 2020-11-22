@@ -13,6 +13,8 @@ Example:
 ```
 Apex♦ Apex Legends
 VisualStudio♦\s-\sMicrosoft\sVisual\sStudio
+Ninja♦AND♦Ninja♦Fruit
+Chess♦OR♦Chess♦Echec
 ```
 
 ### .boolstobool
