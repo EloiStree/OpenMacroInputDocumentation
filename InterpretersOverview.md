@@ -1,26 +1,34 @@
 
-**I: Macro**
+### I: Macro
+
 - macro:nameofthemacro
 - macro:regexofthemacro
 - macro:jomiofthemacro
+
 See: [.stringtocommands](.stringtocommands) - [.regextocommands](.regextocommands)
 
 ### I: JomiMacro
+
 - jomimacro:nameofthefile
+
 See: [.jomimacro](.jomimacro)
 
 ### I: DebugLog
+
 - debuglog Text to display
 
 ### I: Time 
+
 - In time|command
 
 ### I: Sound
+
 With name:
 - sound:shotplay:filename
 - sound:play:filename
 - sound:pause:filename
 - sound:stop:filename
+
 Without name:
 - sound:switchpause
 - sound:play
@@ -28,11 +36,13 @@ Without name:
 - sound:stop
 
 ### I: Boolean
+
 Value as: 1,true
 - bool:nameoftheboolean:value
 - boolswitch:nameoftheboolean
 
 ### I: Executable
+
 - exefile:nameofthefile
 
 ### I: Screen Recorder
@@ -71,6 +81,7 @@ Value as: 1,true
 
 
 ### I: Looper
+
 From file:
 - loop:set:name:[true|false]
 - loop:on:name
@@ -89,6 +100,7 @@ Created on the fly:
 - tloop:createandstart:
 
 ### I: Copypast
+
 - copypast:device:past
 - copypast:device:copy
 - copypast:device:cut
@@ -96,14 +108,18 @@ Created on the fly:
 - copypast:jomi:file:filename
 
 ### I: Ricochet
+
 - ricochet 30 45ms 800ms 1.5s 5.0: debuglog Hello
 
 
 ### I: Womi
+
 - winkey:press:keyname
 - winkey:release:keyname
 - winkey:stroke:keyname
 ---------
 # Legacy
+
 ### I: Wait
+
 - Wait time command 
