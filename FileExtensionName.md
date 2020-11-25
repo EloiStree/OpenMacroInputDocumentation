@@ -62,7 +62,7 @@ Shift♦--♦ ☗ExitTime 1500 ☗TriggerOnExit ♦macro:window:pausemusic
 Shift♦---♦ ☗ExitTime 1500 ☗TriggerOnExit ♦macro:window:restartmusic
 ```
 
-### .doublemorsecondition
+#### doublemorsecondition
 This file allow you to create morse sequence to be listened to but instead of using time as short or long, you defined two conditions.
 Example:
 ```
