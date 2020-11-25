@@ -7,7 +7,7 @@ You can financially support me or just give some help around.
 - [Offer me a beer or a coffee](http://eloistree.page.link/coffee)
 - [Watch some ads](https://eloistree.page.link/omiwatchads)
 - [Hire me for talk or help](https://eloistree.page.link/omicommission)
-- [Create your keyboard from Amazon component](https://eloistree.page.link/omiaffiliatekeyboardo)
+- [Create your keyboard from Amazon component](https://eloistree.page.link/omiaffiliatekeyboard)
 - ...
 
 # Side Help
