@@ -6,5 +6,5 @@ I invite your to make your own and will link here some tutorial on how to do the
 To make your keyboard you will need to buy some hardware component.
 You can buy them in store, but I bet you are going to buy them on Amazon, AliExpress or alternative.
 
-If this is the case, then you can help me back by using affiliation.
-Basically store give pourcentage to people that send you customer to them.
+If this is the case, then you can help me back by using affiliation link(s).
+Basically it gives pourcentage of what people buy on the store.
