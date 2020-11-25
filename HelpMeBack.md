@@ -1,6 +1,6 @@
 t
 
-# Financial Helpo
+# Financial Help
 
 ds
 qd  
