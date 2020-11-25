@@ -36,8 +36,8 @@ q
 sdf
 qd
 s
-# Random Help
-
+# Side Help
+o
 
 qsdf
 q
