@@ -8,3 +8,4 @@ You can buy them in store, but I bet you are going to buy them on Amazon, AliExp
 
 If this is the case, then you can help me back by using affiliation link(s).
 Basically it gives pourcentage of what people buy on the store.
+
