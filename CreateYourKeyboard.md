@@ -9,3 +9,8 @@ You can buy them in store, but I bet you are going to buy them on Amazon, AliExp
 If this is the case, then you can help me back by using affiliation link(s).
 Basically it gives pourcentage of what people buy on the store.
 
+For example, here are the tool I use to build my keyboard:
+- Arduino Nano: https://amzn.to/3nZJMGH
+- Resistance of 330ohm 2.2k ohm 1k ohm 1m ohm: https://amzn.to/2IZ8jgd
+- "Fil de laiton" https://amzn.to/3nZhkV4
+- Soldering Cable https://amzn.to/2HENgPk
