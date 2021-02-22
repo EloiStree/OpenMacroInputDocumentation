@@ -51,7 +51,7 @@ Ping me if you need it.
 
 
 When you use those commands in the OMI application with the JOMI interpreter.  
-You need to put ```**jomi:**enter↓ ⌛20 enter↑ [[Yo]] enter↓ ⌛20 enter↑``` for shortcut message.
-And ```**jomiraw:**sc:enter↓ ⌛20 enter↑ [[Yo]] enter↓ ⌛20 enter↑```  for all direct command.  
+You need to put **jomi:**enter↓ ⌛20 enter↑ [[Yo]] enter↓ ⌛20 enter↑ for shortcut message.
+And **jomiraw:**sc:enter↓ ⌛20 enter↑ [[Yo]] enter↓ ⌛20 enter↑  for all direct command.  
 
 
