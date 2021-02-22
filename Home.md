@@ -101,6 +101,7 @@ Meaning they can have issue but they mainly works as intended and are good enoug
 .portnomenclature|***|Allow to listen to Arduino (or else) and convert them to boolean to be used.
 .screenzonetoboolean|*|Allow to defined a screenzone and convert it as a boolean value when the mouse enter and exit the zone
 .spliter.xml |**| Allows to convert a group of boolean to more booleans to make your avoid thinking about the logic behind a frequently used pattern.
+.audiointensity|***|Allow to convert the intencity of microphon (window) to a boolean value
 
 ## Complexe
 The following files are technicly in my application but they are too hard to explain simply of how they work. If you are challagened enough, feel free to overwatch how to use them.
@@ -118,45 +119,17 @@ They are in the program... but I did not tested since a long time and I am not s
 .linearcondition|***|Allow to quickly associate an action based on a sequence of conditions
 .jomimacro|***|Store some actions that need to be precisely executed with 1-10 milliseconds precision
 .regextocommands|***|Give flexibility compare to 'stringtocommands' by using regex instead of string.
+.screenlocations|**|Defined some screen location that can be used by some interpretors or directly convert to boolean
+.stack|**|This file allow you to stack actions to be call one after an other for the stack interpretor
+.timedcommandlines|**|Allow to associate actions to some specific amount of time
+.sequencedcommandlines|**|Allow to list some actions that need to be executed one after an other with some same delay between them.
+.relativetimedcommdlines|**|Allow to associate actions with time relative to the previous and next one.
+.wowfishingsetting|**|A file specific to World of Warcaft to fish automaticaly based on sound.
+.reimportcommands|**| Allow to associate actions in the software each time it import the new configuration or when the application start.
 
+------------------------------
 
-.audiointensity|***|Allow to convert the intencity of microphon (window) to a boolean value
-.screenlocations
-.stack
-.timedcommandlines
-.sequencedcommandlines
-.relativetimedcommdlines
-.wowfishingsetting
-.reimportcommands
-
-## Interpreter
-
-https://github.com/EloiStree/OpenMacroInput/wiki/InterpretersOverview
-
-
-------------------
-
-.keyboardtoboolean
-.apptoboolean
-.boolstobool
-
-Complexe
-.booleanregexcondition
-.copypastfile
-.filetobool
-.jomimacro
-.keyboardtoboolean
-.linearcondition
-.morsecondition
-.portnomenclature
-.regextocommands
-.screenzonetoboolean
-.simplecondition
-.stringtocommands
-
-.timecondition
-
-.timeofdaytocommands
-
-.windowkeytoboolean
-.winxboxtoboolean
+## Could help until the doc is more clear
+ 
+- https://github.com/EloiStree/OpenMacroInput/wiki/InterpretersOverview
+- https://github.com/EloiStree/OpenMacroInput/wiki/FileExtensionName
