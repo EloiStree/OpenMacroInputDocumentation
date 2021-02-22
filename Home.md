@@ -85,43 +85,43 @@ All the files in this list are regularly used in my everyday life testing.
 Meaning they can have issue but they mainly works as intended and are good enought to be used.
 |  File | Difficulty   |  What it does ?|
 |---|---|---|
-[.keyboardtoboolean]()|*|Listen to keyboard in general.
-[.windowkeytoboolean]()|*|Listen to window keyboard specificly.
-[.winxboxtoboolean]()|*|Listen to Xbox Controller on Window.
-[.apptoboolean]()|*|Listen the focus of an application.
-[.boolstobool]()|*|Convert conditions to a boolean.
-[.filetobool]()|*|Defined boolean that need to exist and set them to a default value.
-[.morsecondition]()|**|Listen to a morse sequence to linked it to actions.
-[.stringtocommands]()|**|Create actions to be call based on a given name.
-[.timeofdaytocommands]()|**|Call action at specific moment of the day or frequence of the day.
-[.simplecondition]()|***|Link condition to actions to be call based on switch or maintaining.
-[.timecondition]()|***|Link condition to an action based on a range of time to be trigger.
-[.portnomenclature]()|***|Allow to listen to Arduino (or else) and convert them to boolean to be used.
-[.screenzonetoboolean]()|*|Allow to defined a screenzone and convert it as a boolean value when the mouse enter and exit the zone
-[.spliter.xml]() |**| Allows to convert a group of boolean to more booleans to make your avoid thinking about the logic behind a frequently used pattern.
-[.audiointensity]()|***|Allow to convert the intencity of microphon (window) to a boolean value
+[.keyboardtoboolean](.keyboardtoboolean)|*|Listen to keyboard in general.
+[.windowkeytoboolean](.windowkeytoboolean)|*|Listen to window keyboard specificly.
+[.winxboxtoboolean](.winxboxtoboolean)|*|Listen to Xbox Controller on Window.
+[.apptoboolean](.apptoboolean)|*|Listen the focus of an application.
+[.boolstobool](.boolstobool)|*|Convert conditions to a boolean.
+[.filetobool](.filetobool)|*|Defined boolean that need to exist and set them to a default value.
+[.morsecondition](.morsecondition)|**|Listen to a morse sequence to linked it to actions.
+[.stringtocommands](.stringtocommands)|**|Create actions to be call based on a given name.
+[.timeofdaytocommands](.timeofdaytocommands)|**|Call action at specific moment of the day or frequence of the day.
+[.simplecondition](.simplecondition)|***|Link condition to actions to be call based on switch or maintaining.
+[.timecondition](.timecondition)|***|Link condition to an action based on a range of time to be trigger.
+[.portnomenclature](.portnomenclature)|***|Allow to listen to Arduino (or else) and convert them to boolean to be used.
+[.screenzonetoboolean](.screenzonetoboolean)|*|Allow to defined a screenzone and convert it as a boolean value when the mouse enter and exit the zone
+[.spliter.xml](.spliter.xml) |**| Allows to convert a group of boolean to more booleans to make your avoid thinking about the logic behind a frequently used pattern.
+[.audiointensity](.audiointensity)|***|Allow to convert the intencity of microphon (window) to a boolean value
 
 ## Complexe
 The following files are technicly in my application but they are too hard to explain simply of how they work. If you are challagened enough, feel free to overwatch how to use them.
 
 |  File | Difficulty   |  What it does ?|
 |---|---|---|
-.booleanregexcondition]()|***|Allow to trigger actions based on boolean change with Regex detection. Powerfull but very hard to use without knowedlge and training. 
+[.booleanregexcondition](.booleanregexcondition)|***|Allow to trigger actions based on boolean change with Regex detection. Powerfull but very hard to use without knowedlge and training. 
 
 ## Check if finish
 They are in the program... but I did not tested since a long time and I am not sure they are still working or finished
 
 |  File | Difficulty   |  What it does ?|
 |---|---|---|
-[.copypastfile]()|*|Allow to have some text that can be copy pasted on command.
-[.linearcondition]()|***|Allow to quickly associate an action based on a sequence of conditions
-[.jomimacro]()|***|Store some actions that need to be precisely executed with 1-10 milliseconds precision
-[.regextocommands]()|***|Give flexibility compare to 'stringtocommands' by using regex instead of string.
-[.screenlocations]()|**|Defined some screen location that can be used by some interpretors or directly convert to boolean
-[.stack]()|**|This file allow you to stack actions to be call one after an other for the stack interpretor
-[.timedcommandlines]()|**|Allow to associate actions to some specific amount of time
-[.sequencedcommandlines]()|**|Allow to list some actions that need to be executed one after an other with some same delay between them.
-[.relativetimedcommdlines]()|**|Allow to associate actions with time relative to the previous and next one.
+[.copypastfile](.copypastfile)|*|Allow to have some text that can be copy pasted on command.
+[.linearcondition](.linearcondition)|***|Allow to quickly associate an action based on a sequence of conditions
+[.jomimacro](.jomimacro)|***|Store some actions that need to be precisely executed with 1-10 milliseconds precision
+[.regextocommands](.regextocommands)|***|Give flexibility compare to 'stringtocommands' by using regex instead of string.
+[.screenlocations](.screenlocations)|**|Defined some screen location that can be used by some interpretors or directly convert to boolean
+[.stack](.stack)|**|This file allow you to stack actions to be call one after an other for the stack interpretor
+[.timedcommandlines](.timedcommandlines)|**|Allow to associate actions to some specific amount of time
+[.sequencedcommandlines](.sequencedcommandlines)|**|Allow to list some actions that need to be executed one after an other with some same delay between them.
+[.relativetimedcommdlines](.relativetimedcommdlines)|**|Allow to associate actions with time relative to the previous and next one.
 [.wowfishingsetting](.wowfishingsetting)|**|A file specific to World of Warcaft to fish automaticaly based on sound.
 [.reimportcommands](.reimportcommands)|**| Allow to associate actions in the software each time it import the new configuration or when the application start.
 
