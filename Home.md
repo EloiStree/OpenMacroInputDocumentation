@@ -156,6 +156,8 @@ I did a software call JOMI in java that received request by UDP and execute them
 
 Meaning that you can design your own version of the tool by just using JOMI.
 
+Here is a guide of the basic you can use:
+[JOMI Basic Commmands](JomiBasicCommands)
 
 **Why in Java ?**
 - Because I want to have a tool that works on many platform: Mac, Linux, Window...
