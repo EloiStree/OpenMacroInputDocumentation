@@ -134,9 +134,9 @@ For example: `In 500|macro:Sayhello`
   - It will send in 500 milliseconds the following command line `macro:Sayhello`
 - The interpretor of macros will recognize that the line start with "macro:"
   - It will check for a macro save under the name "SayHello"
-  - "SayHello" is store by the user as such in a .stringcommands file: "jomi: enter↓ enter↑ [[Hello Guys !]] enter↓ enter↑ 
-- The interpretor of JOMI will recognize that the line start with "jomi:"
-  - It will send to the JOMI app the request to execute the following command "enter↓ enter↑ [[Hello Guys !]] enter↓ enter↑"
+  - "SayHello" is store by the user as such in a .stringcommands file: ```jomi: enter↓ enter↑ [[Hello Guys !]] enter↓ enter↑``` 
+- The interpreter of JOMI will recognize that the line start with "jomi:"
+  - It will send to the JOMI app the request to execute the following command ```enter↓ enter↑ [[Hello Guys !]] enter↓ enter↑```
 - The JOMI app will convert the shortcut text as soon as it received it by:
   - Stroke enter and copy past "Hello guys!" then stroke enter
 
