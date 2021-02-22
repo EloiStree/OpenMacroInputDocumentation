@@ -56,10 +56,8 @@ Before you start you need to understand:
   - Copy past interpreter: will copy past as text you stored previously
   - ...
 
-So ... great but how do I configure that?
-You just modify some files based on the tutorial in this wiki.
-
-So let's overmatch all that.
+**So... How do I configure that?**  
+So let's overmatch all that with this Wiki Git and videos.
 
 
 ## Boolean
@@ -127,6 +125,51 @@ They are in the program... but I did not tested since a long time and I am not s
 .wowfishingsetting|**|A file specific to World of Warcaft to fish automaticaly based on sound.
 .reimportcommands|**| Allow to associate actions in the software each time it import the new configuration or when the application start.
 
+
+## Interpreter
+The interpreter are some code that based on the structure of your "command line" will claimed the responsibility and do some action or/and trigger some other command line to be interpreted.
+
+For example: `In 500|macro:Sayhello`
+- The interpreter of time will recognize that the line start with "In 500|" 
+  - It will send in 500 milliseconds the following command line `macro:Sayhello`
+- The interpretor of macros will recognize that the line start with "macro:"
+  - It will check for a macro save under the name "SayHello"
+  - "SayHello" is store by the user as such in a .stringcommands file: "jomi: enter↓ enter↑ [[Hello Guys !]] enter↓ enter↑ 
+- The interpretor of JOMI will recognize that the line start with "jomi:"
+  - It will send to the JOMI app the request to execute the following command "enter↓ enter↑ [[Hello Guys !]] enter↓ enter↑"
+- The JOMI app will convert the shortcut text as soon as it received it by:
+  - Stroke enter and copy past "Hello guys!" then stroke enter
+
+It seem a bit complicated for nothing. 
+But that very powerfull.
+(And very not good if you want nanoseconds action or 1-3 milliseconds precision.)
+
+More documentation on that later.  
+Go here until I have some more documentation on the subject:  
+https://github.com/EloiStree/OpenMacroInput/wiki/InterpretersOverview
+
+
+## Java Open Macro Input
+Open Macro Input are some tools that together make a software to listen to the user and do actions based on it.
+But as there are thousand of ways to do it. 
+I did a software call JOMI in java that received request by UDP and execute them.
+
+Meaning that you can design your own version of the tool by just using JOMI.
+
+
+**Why in Java ?**
+- Because I want to have a tool that works on many platform: Mac, Linux, Window...
+- Because some game and software don't detect native simulation of keystroke when other does... So I have both. Java outside my app and native inside my app.
+- Because if you have the executable in your app, you are linked to the computer it runs on.
+- Because if the code is in your app, you have to share the resource with it. 
+- Plenty of bullshit other reasons to avoid to say that I did a experiment and it works and so I continued with it until I code something that is significantly better.
+- ... 
+
+
+More information on this part of the tool on this GitHub repository:  
+https://github.com/EloiStree/2020_04_10_JavaOpenMacroInputRuntime
+
+ 
 ------------------------------
 
 ## Could help until the doc is more clear
