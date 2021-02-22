@@ -12,10 +12,10 @@ Also.
 Before we start:  
 ![image](https://user-images.githubusercontent.com/20149493/108714894-6dff9d00-751a-11eb-873a-1b5ff3075286.png)
 PS: I know what I want to create... But I have not idea of what it will look like in the future and what is the best shape for it. In the design or in the way of coding it.
-- If you think you can do better, feel free to give it a try. (Code is open source) 
-- If you think I can do better feel free to talk with me.  (I am on Discord)
+- If you think you can do better, feel free to give it a try. (Code(s) are Open Source) 
+- If you think I can do better, feel free to talk with me.  (I am on [Discord](eloistree.page.link/discord))
 - If you think my way of coding is shit, feel free to help me (It is my first big software)
-- If you think my software is not good for professionnal use... (o_O') Yes obviously as it is unstable like 'shit'... Thank captain obvious. 
+- If you think my software is not good for professional use,... (o_O') Yes... obviously... it is unstable like 'shit' as it is in a research and development state. Thank captain obvious. 
 
 ------------------
 
