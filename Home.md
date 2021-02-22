@@ -6,6 +6,14 @@ But "it is by forging that one becomes a blacksmith".
 So if you need help, ping me on Discord:
 https://eloistree.page.link/discord
 
+Also. Before we start:
+![image](https://user-images.githubusercontent.com/20149493/108714894-6dff9d00-751a-11eb-873a-1b5ff3075286.png)
+PS: I know what I want to create... But I have not idea of what it will look like in the future and what is the best shape for it. In the design or in the way of coding it.
+- If you think you can do better, feel free to give it a try. (Code is open source) 
+- If you think I can do better feel free to talk with me.  (I am on Discord)
+- If you think my way of coding is shit, feel free to help me (It is my first big software)
+- If you think my software is not good for professionnal use... (o_O') Yes obviously as it is unstable like 'shit'... Thank captain obvious. 
+
 ------------------
 
 Welcome to you. 
@@ -73,3 +81,31 @@ So let's overmatch all that.
 ## Interpreter
 
 https://github.com/EloiStree/OpenMacroInput/wiki/InterpretersOverview
+
+
+------------------
+
+.keyboardtoboolean
+.apptoboolean
+.boolstobool
+
+Complexe
+.booleanregexcondition
+.copypastfile
+.filetobool
+.jomimacro
+.keyboardtoboolean
+.linearcondition
+.morsecondition
+.portnomenclature
+.regextocommands
+.screenzonetoboolean
+.simplecondition
+.stringtocommands
+
+.timecondition
+
+.timeofdaytocommands
+
+.windowkeytoboolean
+.winxboxtoboolean
