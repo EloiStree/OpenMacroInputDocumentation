@@ -7,6 +7,7 @@ So if you need help, ping me on Discord:
 https://eloistree.page.link/discord
 
 
+------------------
 
 Also.  
 Before we start:  
@@ -21,8 +22,8 @@ PS: I know what I want to create... But I have not idea of what it will look lik
 
 ------------------
 
-Hello !!!
-Welcome to you. 
+Hello !!!  
+Welcome to you.   
 
 The idea of my tool is simple:
 1. You modify files in the folder 'configuration'.
