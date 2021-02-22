@@ -26,13 +26,12 @@ Hello !!!
 Welcome to you.   
 
 The idea of my tool is simple:
-1. You modify files in the folder 'configuration'.
-2. When saved my application detect modified files and load the new configuration.
+1. Play your game / be productive with your software
+1. Create & Modify files in the folder 'configuration' of the application to tweak your wish and desire
+2. The application detect modified files and load the new configuration.
 3. Do that until your happy with your configuration.
-4. Later: Share the files to the community when you love your configuration.
+4. Share your files with the community when you are proud of it.
 
-Now it means that each file has a way to be written. 
-This wiki is here to give you the "grammar" of it and examples. 
 
 ----------------------------
 
@@ -64,26 +63,71 @@ So let's overmatch all that.
 
 
 ## Boolean
+In my application a Boolean value is a true or false state linked to a referential name. This is 80% of the application.
 
 ## Condition
+Small text that ask the state of several Booleans state through the recent past time.
 
 ## Command line
+One line of text that design something to do. It does know how to do it but it just request to do it. 
 
 ## Interpreter
+Some codes of the application that a programmer added to the app for you that can understand some command line you can send. For the moment, the first interpreter that understand a command line claimed it and it responsible of executing it.
 
 ## Files configuration
+
+Large range of files type that give the shape of how you want the software to assiste your in your daily life.
+It only work for files in the configuration folder. An option will be add to import them from an/some URL in the future.
 
 ----------------------
 
 # Files
-## Full list
-|  File | What it does  |  
-|---|---|
-|  .spliter.xml | It convert a group of boolean to more booleans to make your avoid thinking about the logic of it based on the context you give them.  |  
+## Used frequently
+All the files in this list are regularly used in my everyday life testing.
+Meaning they can have issue but they mainly works as intended and are good enought to be used.
+|  File | Difficulty   |  What it does ?|
+|---|---|---|
+.keyboardtoboolean|*|Listen to keyboard in general.
+.windowkeytoboolean|*|Listen to window keyboard specificly.
+.winxboxtoboolean|*|Listen to Xbox Controller on Window.
+.apptoboolean|*|Listen the focus of an application.
+.boolstobool|*|Convert conditions to a boolean.
+.filetobool|*|Defined boolean that need to exist and set them to a default value.
+.morsecondition|**|Listen to a morse sequence to linked it to actions.
+.stringtocommands|**|Create actions to be call based on a given name.
+.timeofdaytocommands|**|Call action at specific moment of the day or frequence of the day.
+.simplecondition|***|Link condition to actions to be call based on switch or maintaining.
+.timecondition|***|Link condition to an action based on a range of time to be trigger.
+.portnomenclature|***|Allow to listen to Arduino (or else) and convert them to boolean to be used.
+.screenzonetoboolean|*|Allow to defined a screenzone and convert it as a boolean value when the mouse enter and exit the zone
+.spliter.xml |**| Allows to convert a group of boolean to more booleans to make your avoid thinking about the logic behind a frequently used pattern.
+
+## Complexe
+The following files are technicly in my application but they are too hard to explain simply of how they work. If you are challagened enough, feel free to overwatch how to use them.
+
+|  File | Difficulty   |  What it does ?|
+|---|---|---|
+.booleanregexcondition|***|Allow to trigger actions based on boolean change with Regex detection. Powerfull but very hard to use without knowedlge and training. 
+
+## Check if finish
+They are in the program... but I did not tested since a long time and I am not sure they are still working or finished
+
+|  File | Difficulty   |  What it does ?|
+|---|---|---|
+.copypastfile|*|Allow to have some text that can be copy pasted on command.
+.linearcondition|***|Allow to quickly associate an action based on a sequence of conditions
+.jomimacro|***|Store some actions that need to be precisely executed with 1-10 milliseconds precision
+.regextocommands|***|Give flexibility compare to 'stringtocommands' by using regex instead of string.
 
 
-# Command Line
-
+.audiointensity|***|Allow to convert the intencity of microphon (window) to a boolean value
+.screenlocations
+.stack
+.timedcommandlines
+.sequencedcommandlines
+.relativetimedcommdlines
+.wowfishingsetting
+.reimportcommands
 
 ## Interpreter
 
