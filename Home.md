@@ -40,9 +40,9 @@ Before you start you need to understand:
 - "Every situation can be resume in a 'true' or 'false' statement(s)"
   - So my programme is at 80% composed of tools to manage Boolean(true or false) only situation.
 - Based on those named 1 and 0 you can make condition statement
-  - Is the player jumping and firing ->  ````juming + firing ```
-  - Is the player not running  and firing ->  ````!running + firing ```
-  - Is the player is in game or in photoshop ->  ````!gamename + photoshop ```
+  - Is the player jumping and firing ->  ````juming + firing```
+  - Is the player not running  and firing ->  ````!running + firing```
+  - Is the player is in game or in photoshop ->  ````!gamename + photoshop```
 - Those condition will help you to do two main actions
   - Create new named Boolean
     - juming + firing -> epicmoveincoming
