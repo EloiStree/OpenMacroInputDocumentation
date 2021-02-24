@@ -100,6 +100,7 @@ Meaning they can have issue but they mainly works as intended and are good enoug
 [.screenzonetoboolean](.screenzonetoboolean)|*|Allow to defined a screenzone and convert it as a boolean value when the mouse enter and exit the zone
 [.spliter.xml](.spliter.xml) |**| Allows to convert a group of boolean to more booleans to make your avoid thinking about the logic behind a frequently used pattern.
 [.audiointensity](.audiointensity)|***|Allow to convert the intencity of microphon (window) to a boolean value
+[.booleangroup](.booleangroup)|**|Allow to make group of boolean to make group change and selection.
 
 ## Complexe
 The following files are technicly in my application but they are too hard to explain simply of how they work. If you are challagened enough, feel free to overwatch how to use them.
