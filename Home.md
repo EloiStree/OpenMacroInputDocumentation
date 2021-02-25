@@ -100,6 +100,7 @@ Storage||
 [.stringtocommands](.stringtocommands)|**|Create actions to be call based on a given name.
 Condition Trigger||
 [.morsecondition](.morsecondition)|**|Listen to a morse sequence to linked it to actions.
+[.doublemorsecondition](.doublemorsecondition)|**|Listen to a morse combination of boolean to linked it to actions.
 [.timeofdaytocommands](.timeofdaytocommands)|**|Call action at specific moment of the day or frequence of the day.
 [.simplecondition](.simplecondition)|***|Link condition to actions to be call based on switch or maintaining.
 [.timecondition](.timecondition)|***|Link condition to an action based on a range of time to be trigger.
