@@ -19,7 +19,7 @@
             "[| left right]",
             "[| left right]",
             "[≡ left right]", // equivalent all true or all false
-            "[left right 🀲  up ]", // left and right are fals and up is true
+            "[left right 🀲  up ]", // left and right are false and up is true
             "[up down 🀸 left right]", // up and down are true. Left and right are false.
             //INVERSE
             "¬up",
