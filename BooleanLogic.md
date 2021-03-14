@@ -29,6 +29,10 @@
             "(left | right) && (up | down)", // Diagonal
             "(left ∨ right) ∧ (up ∨ down)", // Diagonal
             "(left or right) and (up or down)", // Diagonal
+            "(left or right) and (up or down)", // Diagonal
+
+            "left < right",// true if left is false and right true
+            "up > down", // true if left is true and right false
             
             //Or and Priority
             "left || right |||| up + down ++ up",
