@@ -38,12 +38,30 @@ If I have to resume the application you will use in a step by step:
 ## Configure Sona With Midi
 
 Ok let's learn by doing a basic example of how OMI work.  
+[![image](https://user-images.githubusercontent.com/20149493/146424137-da71b163-2036-4684-a4e8-8add2cc768f1.png)](https://youtu.be/hawThTG5No8?t=84)
 
-### 1. Download the last build of OMI  
+### 0. Download the last build of OMI  
 [![image](https://user-images.githubusercontent.com/20149493/146397675-b604fde6-3c78-407a-b9b1-a365e657cc6d.png)](https://openmacroinput.itch.io/openmacroinput)  
 (https://openmacroinput.itch.io/openmacroinput)  
 - 'OMI Last build' is the last stable build push on line.
 - 'JOMI' is a portable executable that OMI use to do that keybaord and mouse action on your computer.
+
+### 1. The basic: Named boolean > Condition(s) > Action(s)
+
+To use my application you will have some 'named boolean' (true or false) that will be group to form 'condition'.  
+Those condition will send some 'text' called 'command' that are going to be understood and transform to actions on your computer.
+
+Example: lol + sona + backhome ♦ jomi: b↓ b↑ ⌛8500  space↓ space↑ ♦ ☗TriggerOnTrue
+We say to the application. If we are in league of legend and I am playing sona, when I request to go home can you type on the keyboard 'b' and focus on me by pressing space in 8 seconds.
+
+Named boolean : lol   sona  backhome  
+Condition : lol + sona + backhome  
+Text/ Command: jomi: b↓ b↑ ⌛8500  space↓ space↑  
+Some text format: ♦ ☗TriggerOnTrue  
+
+This line in a file represent your 'intent' of doing something that the application will execute when you play.
+When you modifiy a file the application detect it and update itself. So you can change in the middle of the game quickly.
+
 
 ### 2. Let's listen to Midi
 - You need to say to OMI that you will listen to MIDI entry in a `default.omi.xml`
@@ -83,16 +101,43 @@ MPK Mini Play♦NoteVelocity♦G4♦0.9♦1♦AdditionalPowerHight♦SetTrue
 
 ```
 
-
 If like me you play 3 differents champion, note that you can switch the macro with a midi controller like this:  
 ![image](https://user-images.githubusercontent.com/20149493/146401133-2d3df79a-c2d3-4cb6-8168-fd3cf82db2eb.png)  
 
-'default.miditoboolean'  
+`default.miditoboolean`    
 ```
 MPK Mini Play♦CC♦48♦0.0♦0.33♦ChoGath♦SetTrue
 MPK Mini Play♦CC♦48♦0.33♦0.66♦Sona♦SetTrue
 MPK Mini Play♦CC♦48♦0.66♦1♦Zoe♦SetTrue
 ```
+
+### 3. Apply actions just in the game
+
+You don't want when you are outside of lol to trigger accidently some macro.
+So we will listen to what application is focus by adding this file:
+
+`default.apptoboolean`  
+```
+lol♦League of Legends
+
+//Here are some example of other games
+wow♦World of Warcraft
+crash♦Crash Bandicoot
+aoe4♦Age of Empires IV
+ftl♦FTL:
+// And application
+notepad♦ - Notepad
+youtube♦ - YouTube 
+facebook♦Facebook  
+```
+
+
+
+### 4. Almost ready for action
+
+Now that we can listen the keyboard you need to do 'action' based on 'condition'.
+
+
 
 
 
