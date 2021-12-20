@@ -1,21 +1,26 @@
 Share this tutorial: https://openmacroinput.page.link/helloworld
 
-The good old hello world.
+**The good old hello world.**
 
-0. First download [Open Macro Input](https://openmacroinput.page.link/download)  
+### Download OMI  
+
+First download [Open Macro Input](https://openmacroinput.page.link/download)   
 ![image](https://user-images.githubusercontent.com/20149493/146833460-c19475c2-cf00-4c21-a656-6860fe09dd5a.png)  
 
-1. Launch the "Open Macro Input.exe" && the "JOMI.jar"
-2. ![image](https://user-images.githubusercontent.com/20149493/146833674-d02c710c-7aa4-4650-ba96-19f010e62cac.png)  
+### Launch the "Open Macro Input.exe" && the "JOMI.jar"  
 
-3. Listen to the keyboard touch "Page Down"
+ ![image](https://user-images.githubusercontent.com/20149493/146833674-d02c710c-7aa4-4650-ba96-19f010e62cac.png)  
+
+### Listen to the keyboard touch "Page Down"  
+
 `helloworld.keyboardtoboolean`  
 ```
 //Listen to PageDown as a named boolean 'RequestHelloWorldKey'
 PageDown♦RequestHelloWorld
 ```
 
-4. Associate the action to write "Hello World to the change of PageDown
+### Associate the action to write "Hello World to the change of PageDown 
+
 `helloworld.simplecondition`
 ```
 //Write Hello World and press enter before and after when value is 'RequestHelloWorldKey' is true
@@ -29,24 +34,29 @@ RequestHelloWorldKeyLoop  ♦ jomi:[[Hello...]] enter↓ ⌛250 enter↑ ♦ ☗
 RequestHelloWorldKeyLoop  ♦ jomi:[[...World!]] enter↓ ⌛250 enter↑ ♦ ☗TriggerOnFalse
 ```
 
-5. Be sure that JOMI is launch and active
+### Be sure that JOMI is launch and active  
+
 ![image](https://user-images.githubusercontent.com/20149493/146835094-afe18322-d8a3-4008-8d90-380bbe30fe3e.png)    
 JOMI stand for Java Open Macro Input. It is a small java application. Meaning that it runs on most platform.  
 It don't facilitate the tasks for new user of OMI but it us very useful to control several computers or do remote controllers.  
 OMI is heavy but JOMI is just a light application to run on the side.  
 
-6. Communicate between OMI and JOMI
+### Communicate between OMI and JOMI  
+
 ![image](https://user-images.githubusercontent.com/20149493/146836557-7a178264-8bd2-4cc0-8351-2d52c99ff5d5.png)  
-It is a bit geeky but... Both program need to communicated.  
+It is a bit geeky but... Both program need to communicated.   
 Here we target our current computer, so you need to set the current ip or 127.0.0.1. the two application need the same port.  
 (I will code a better version in future but it is like that in current version).   
 
-6. Enjoy your "Hello World"
-If you set up everything right. Now if you press page down and page up, it should write "Hello World" And "Hey !!! Hello... Hello... Hello... Hello... World !"
+### Enjoy your "Hello World"  
+
+If you set up everything right.  
+Now if you press page down and page up, it should write "Hello World" And "Hey !!! Hello... Hello... Hello... Hello... World !"  
 ![image](https://user-images.githubusercontent.com/20149493/146840008-71b3167c-3684-40c1-af8c-5ffd9dbbb1f1.png)
 
 
-7. Make a contextual "Hello World"
+### Make a contextual "Hello World"  
+
 The problem of Macro (action(s) triggered) is that you don't want them to happen in the wrong application.
 So let's listen to some and apply different behaviour to them.
 
