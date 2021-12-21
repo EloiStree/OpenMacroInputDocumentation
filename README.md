@@ -14,3 +14,11 @@ https://github.com/EloiStree/OpenMacroInputConfigExamples
 Ping me on Discord if you need more assistance:
 https://eloistree.page.link/discord
 
+
+
+------------------------------
+
+PS: you can find two old tutorials that are still usefull:
+- https://github.com/EloiStree/OpenMacroInput/wiki/FileExtensionName
+- https://github.com/EloiStree/OpenMacroInput/wiki/InterpretersOverview
+- https://github.com/EloiStree/OpenMacroInput/wiki/JomiBasicCommands
