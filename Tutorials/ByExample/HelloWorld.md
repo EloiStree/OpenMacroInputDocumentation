@@ -1,6 +1,14 @@
 Share this tutorial: https://openmacroinput.page.link/helloworld
 
-Download example as a ZIP:
+
+----------------------
+
+## Solution of the tutorial
+
+If you just want the solution of the tutorial.   
+Feel free to download this zip or to use Git.  
+
+Download example as a ZIP:  
 https://github.com/EloiStree/OpenMacroInputConfigExamples/archive/refs/heads/HelloWorldOMI.zip
 
 Download example as a git clone:
@@ -9,8 +17,11 @@ git clone -n https://github.com/EloiStree/OpenMacroInputConfigExamples.git .
 git checkout fec391ca182920628e4a69d343c586089647929d
 ```
 
+------------------------
 
 **The good old hello world.**
+
+
 
 ### Download OMI  
 
