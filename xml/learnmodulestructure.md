@@ -3,6 +3,7 @@
 <xml>
   <tutorial>
     <title> </title>
+    <shortdescription> </shortdescription>
     <urlMarkdownStepByStep>  </urlMarkdownStepByStep>
     <urlOmiConfigurationExample>  </urlOmiConfigurationExample>
     <urlGoogleSlideDocument>  </urlGoogleSlideDocument>
@@ -10,6 +11,7 @@
 
     <dateStart yyyy="" mm="" dd="" />
     <datePublish yyyy="" mm="" dd="" />
+    <dateMajorUpdate yyyy="" mm="" dd="" />
 
     <urlvideofullstepbystep>
       <youtube></youtube>
@@ -31,7 +33,7 @@
 
     <urlFinalOmiWebpage>  </urlFinalOmiWebpage>
 
-  </Tutorial>
+  </tutorial>
 </xml>
 
 ```
