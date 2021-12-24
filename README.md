@@ -16,6 +16,12 @@ https://eloistree.page.link/discord
 
 
 
+## First step = 'Install' + Hello World + Example(s)
+
+https://github.com/EloiStree/OpenMacroInputDocumentation/blob/master/Tutorials/General/SetupUnityOMI.md
+
+
+
 ------------------------------
 
 PS: you can find two old tutorials that are still usefull:
