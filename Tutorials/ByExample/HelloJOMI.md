@@ -1,6 +1,60 @@
-
+ ➤ ☗ | ↓ ↑ _ ‾ ∨ ∧ ¬ ⊗ ≡ ≤ ≥ ⌃ ⌄ ⊓⇅ ⊔⇵ ⊏ ⊐ ↱↳ ∑ -no unity ⤒ ⤓ ⌈ ⌊ 🀲 🀸 ⌛ ⏰
+ 
 Demonstration tutorial by example of JOMI
 
+
+
+
+What can you do with JOMI
+
+shortcut: jomi: ↓ ↑ ⤒ ⤓ ⇵ ⇅  ⌛ ⏰
+
+
+
+
+
+Example of use: 
+- 2↓ 2↑ RightClick↓  RightClick↑ 
+- Ctrl+0 
+- Ctrl+A ⌛10 Backspace↓ ⌛200 Backspace↑  [[Elysian Thade ]] ⌛100 Enter↓ Enter↑ 
+- VK_END↓ VK_END↑
+- ms:l
+- mm:0.206%:0.14% || mm:0.5p:0.3p
+- ma:0.206%:0.14%
+- ks:a
+- kp:a 
+- kr:a
+- ms:[0,1,2] [l,r,m]
+- wh:[wheel:int]
+- mm:[x:int px]:[y:int px]
+- ma:[x:int px]:[y:int px]
+- mm:[x:int %]:[y:int %]
+- ma:[x:int p]:[y:int p]
+- ct:[text]
+
+Not in the code but will be later:
+- Backspace⇵   == Backspace↓ Backspace↑
+- Backspace⇅  == Backspace↑ Backspace↓
+- A↓600  == A↓ ⌛600 A↑
+- A↑600  == A↑ ⌛600 A↓
+- A↓ A↑ ⏰16H30 Enter↓ Enter↑ B↑ ⌛600 B↓ = Press 'a' then wait that it is 16h30 to continue and press 'enter' follow by B ofr 600 ms
+- ⏰Flush == Flush all the waiting time to execute
+- ⌛Flush == Flush all the in queue commands
+- Flush == Flush all the temporary memory in waiting.
+
+When you use OMI, you canuse jomi or jomiraw
+- jomiraw: You want to send a command and you know how to write it
+- jomi: You want to send a command but you use a short compress version
+
+
+### Password
+
+I am not a expert in security. But I wanted to give a minimu of protection in the application.
+You can define a password to be used with JOMI. If someone push 3 times the wrong password. JOMI is block and you need to relaunch it.
+Contact me for tutorial on that subject of if you want to help me protect the software with better solution.
+
+
+### File Configuration
 
 The following list is all the key that can be stroke by Java and so by JOMI  
 `AllStrokableKeys.txt`
