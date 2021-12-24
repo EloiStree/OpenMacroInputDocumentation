@@ -48,6 +48,11 @@ How do you do to play so badly Leroy ?
 
 
 
+![image](https://user-images.githubusercontent.com/20149493/147372700-35740892-f01d-4c6c-886c-1021e041ebdd.png)
+- UDP : https://packetsender.com/download#show
+- Unicode dico: https://unicode-table.com/en/sets/symbols-for-steam/
+
+
 
 Example of use:
 - cmd:start %appdata%/..  // send a window command as launch bat   
