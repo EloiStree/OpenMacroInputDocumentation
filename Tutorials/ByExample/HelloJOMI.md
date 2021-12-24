@@ -34,16 +34,6 @@ What can you do with JOMI
 
 shortcut: jomi: ↓ ↑ ⤒ ⤓ ⇵ ⇅  ⌛ ⏰
 
-**[a  
-b  
-c ](urllink) **
-
-
-|t0 | t1 | t2 | t3|
-|:---: | :---: | :---: | :---:|
-|l1c0 | l1c1 | l1c2 | l1c3|
-|l2c0 | l2c1 | l2c2 | l2c3|
-|l3c0 | l3c1 | l3c2 | l3c3|
 
 How do you do to play so badly Patate ?
 
@@ -59,7 +49,26 @@ How do you do to play so badly Leroy ?
 
 
 
-Example of use: 
+Example of use:
+- cmd:start %appdata%/..  // send a window command as launch bat   
+- cmd:shutdown /s /t 1800"  // shutdown the computer in 1800 seconds 
+- "tms:"   // time as milliseconds
+- t:{0}-{1}-{2}-{3}:cmd  hh:mm seconds, milliseconds
+- ksc:  A↕ | B↕ | C↕"
+- "img2clip:"+ url
+- sc: Ctrl↓ V↕ Ctrl↑"
+- clipboard:[cut,past,copy,copypast,cutpast]  // Do a clipboard action
+- past: past some following text
+- sc:  ...  // send a shortcut text
+- empl:{0}裂{1}   // Per line embrace
+- em:{0}裂{1}"   // Per text embrace
+- uni:U+{0}   // Unicode hexa code
+- unicode:U+
+- uni:{0} // unicode index int
+- unicode:{0}
+- url:{0} // default browser to open at url
+- rep:{0}裂{1}  // to replace 0 by in the clipboard
+- up↕
 - 2↓ 2↑ RightClick↓  RightClick↑ 
 - Ctrl+0 
 - Ctrl+A ⌛10 Backspace↓ ⌛200 Backspace↑  [[Elysian Thade ]] ⌛100 Enter↓ Enter↑ 
