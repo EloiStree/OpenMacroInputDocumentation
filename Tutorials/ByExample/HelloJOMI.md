@@ -3,12 +3,58 @@
 Demonstration tutorial by example of JOMI
 
 
+Demo of JOMI and Android:
+- Download: https://play.google.com/store/apps/details?id=be.eloistree.jomi
+- Video: add it here
+
+
+Java is a language that communicate with your computer.
+The advantage:
+- Is that it runs on almost all computer.
+The disadvantage:
+- It need to be install (by default or by the user)
+- It can only do action that are generic and not native.
+
+For example he can simulate keyboard and mouse move but can't use the key mail or or calculatrice of your keyboard as it is specific of Window.
+
+
+## Why OMI is code in C# and Unity and JOMI in Java ?
+
+The final goal of my project is to have OMI on Oculus Quest, Hololens and future VR AR Glass.
+So it needs to works on Unity 3D.
+
+But as you can't run Unity on Raspberry and all platforms I need it to be verstatil. At least on the execution part.
+That why JOMI was created. JOMI execute instruction and OMI think and listen to native part of the device it runs on.
+
+In future version of the projet they will be a boolean network that will allows intercommunication between devices and applications.
+
 
 
 What can you do with JOMI
 
 shortcut: jomi: ↓ ↑ ⤒ ⤓ ⇵ ⇅  ⌛ ⏰
 
+**[a  
+b  
+c ](urllink) **
+
+
+|t0 | t1 | t2 | t3|
+|:---: | :---: | :---: | :---:|
+|l1c0 | l1c1 | l1c2 | l1c3|
+|l2c0 | l2c1 | l2c2 | l2c3|
+|l3c0 | l3c1 | l3c2 | l3c3|
+
+How do you do to play so badly Patate ?
+
+Go uninstall you fag Legend23
+
+Jesus Chris, what the fuck are you doing Leroy ?
+
+Do you like to get fucked Legend23 ?
+
+
+How do you do to play so badly Leroy ?
 
 
 
@@ -41,6 +87,13 @@ Not in the code but will be later:
 - ⏰Flush == Flush all the waiting time to execute
 - ⌛Flush == Flush all the in queue commands
 - Flush == Flush all the temporary memory in waiting.
+- 🖱move:lrdt:0.5:0.7 = move mouse at 50% of left to right and 70% of down to top of the screen.
+- 🖱left:lrdt:50:60 = left click at 50pixel from left to right and 60 from bot to top
+- 🖱go:lrdt:0.5:0.7 = move mouse at 50% of left to right and 70% of down to top of the screen.
+- 🖱left:lrdt:50:60 = left click at 50pixel from left to right and 60 from bot to top
+- 🖱middle:lrdt:50:60 = left click at 50pixel from left to right and 60 from bot to top
+- 🖱right:lrdt:50:60 = left click at 50pixel from left to right and 60 from bot to top
+
 
 When you use OMI, you canuse jomi or jomiraw
 - jomiraw: You want to send a command and you know how to write it
