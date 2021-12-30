@@ -76,7 +76,7 @@ _(To a target computer that is running JOMI and that is not block by the 'firewa
   
 The application I am using on Window is:  
 Packet Sender: https://packetsender.com/download#show  
-[![image](https://user-images.githubusercontent.com/20149493/147727453-623c00b9-7c75-436c-9123-a6835c742db3.png)](https://packetsender.com/download#show  )
+[![image](https://user-images.githubusercontent.com/20149493/147727453-623c00b9-7c75-436c-9123-a6835c742db3.png)](https://packetsender.com/download#show)
 
 If you prefer on Android, you have a hundred of application:  
 [Google play search: UDP Sender](https://play.google.com/store/search?q=send%20udp&c=apps)  
@@ -84,7 +84,7 @@ I will use this one:[UDP Sender / Receiver](https://play.google.com/store/apps/d
 [![image](https://user-images.githubusercontent.com/20149493/147727474-37e702d1-5b2d-409b-b9e1-968b596e94f1.png)](https://play.google.com/store/apps/details?id=com.jca.udpsendreceive)
 
 _Note that you can do you own application like I did here:   
-[JOMI Demo on Android Store](https://play.google.com/store/apps/details?id=be.eloistree.jomi)
+[JOMI Demo on Android Store](https://play.google.com/store/apps/details?id=be.eloistree.jomi)  
 [![image](https://user-images.githubusercontent.com/20149493/147727572-17dba9b6-9c3b-4064-9b13-cc5b1411cb9a.png)](https://play.google.com/store/apps/details?id=be.eloistree.jomi)
 
 
@@ -98,13 +98,14 @@ At least if you are on the version of 2021-12-30, or near.
 
 
 ### For UDP Sender (Window)
-0. Downloaded and install.
+0. [Downloaded and install 'Packet sender'](https://packetsender.com/download#show)
 _(I let's you do that. Classic download next > next > next > launch)_
 1. Check that JOMI is well open
 2. Enter the IP in the address field: `127.0.0.1`
 3. Enter the port in the port field: `2501`
 4. Enter the following line in the ASCII Field: `tms:3000:url:https://youtu.be/dQw4w9WgXcQ`
 6. Press `send`  
+7. Enjoy :)
 
 ![image](https://user-images.githubusercontent.com/20149493/147727836-cc49c4ec-d8e6-43d0-861e-ea75bd837c7e.png)
 
@@ -112,6 +113,22 @@ And "Ta-Da" you have open your first web page with JOMI.
 If you want to do the 'Hello World' classic example, you can use the following line(s):
 `sc: enter↓ enter↑ [[Hello world !!]] enter↓ enter↑`
 
+
+### For Android user
+0. [Download and install 'UDP Sender'](https://play.google.com/store/apps/details?id=com.jca.udpsendreceive)
+1. Check that JOMI is well Open
+2. Check that the phone and the computer are on the same network
+3. Check that firewall won't block us
+4. Enter local port: anything (I put `5000` randomly)
+5. Enter ip in the host field: `192.168.1.59` for me
+6. Enter port in the port field: `2501`
+7. Write: `sc:[[Hello world !!]] ` in message.
+8. Open a text editor
+9. Press `send`  
+10. Enjoy :)
+
+_Note:Maybe deactivate firewall or open the port 2501 if nothing happend._  
+![image](https://user-images.githubusercontent.com/20149493/147728745-76bfd564-5827-4f17-b752-18b05ef256c0.png)
 
 
 
@@ -135,16 +152,72 @@ sock.sendto(MESSAGE.encode(), (UDP_IP, UDP_PORT))
 ```
 
 
+## Good... And now ?
+
+Now that you know how to communicate with JOMI start the festivity.
+
+Keep those near you because it will become handy.  
+**Unicode you will use:**    
+↓ ↑ ⇅ ⇵ ⌛ ⏰  
+
+Now that you know how to download > "Install" > and communicate with JOMI.
+You just need to know what you can ask him.
+
+JOMI is light so there are not hundred of commands.
+But when you assemble them you can do complex tasks that are infini.
+
+For example:
+This command open your browser on window at this page:
+`tms:1000:cmd:start "" "https://letmegooglethat.com/"`
+
+Then it field the case for you with this second command:
+`sc:⌛6000 tab↕ ⌛500 [[Life is potato]] Tab↕ ⌛500  Enter↕ ⌛500 ctrl+c  ⌛100 ctrl+n  ⌛3000 ctrl+v ⌛3000 ctrl+enter`  
+
+And ta da :) ... That shoudl have done something epic but that did not...
 
 
-**Unicode you will use:**  
-↓ ↑ ⇅ ⇵ ⌛ ⏰
+> ( _/!\ You don't have to understand the next 10-30 line because we will use OMI to avoid complexity on the rest of the tutorial./!\_  
+> _I don't want to affraid you but as you are here to understnad what happening._ )
 
- 
-Demonstration tutorial by example of JOMI
+The problem if you are using UDP Sender like me on Window.  
+Is it that I am using for my application 'Unicode' that is some text with icon like ⌛ or ↕ . And UDP work with ASCII that is (256 character long).
+![image](https://user-images.githubusercontent.com/20149493/147734487-f7ba4364-06d5-45c8-8c09-ba88ec59dc80.png)
+
+
+So here we need to use Unicode to ASCII:  
+https://onlineasciitools.com/convert-unicode-to-ascii  
+to have this:   
+↕ ↓ ↑ ⌛ as  â â â â
+
+And so our command is translated to this in ASCII:
+`tms:6000:sc:[[Life is potato]] â500 tabâ â500 â500 enterâ  â1000  ctrl+c â500 ctrl+n â3000 ctrl+v â3000 ctrl+enter`
+That can be send as package as this by UDP Sender... `74 6d 73 3a 36 30 30 30 3a 73 63 3a 5b 5b 4c 69 66 65 20 69 73 20 70 6f 74 61 74 6f 5d 5d 20 e2 8c 9b 35 30 30 20 74 61 62 e2 86 95 20 e2 8c 9b 35 30 30 20 e2 8c 9b 35 30 30 20 65 6e 74 65 72 e2 86 95 20 20 e2 8c 9b 31 30 30 30 20 20 63 74 72 6c 2b 63 20 e2 8c 9b 35 30 30 20 63 74 72 6c 2b 6e 20 e2 8c 9b 33 30 30 30 20 63 74 72 6c 2b 76 20 e2 8c 9b 33 30 30 30 20 65 6e 74 65 72 e2 86 93 20 20 e2 8c 9b 32 30 30 20 63 74 72 6c 2b 65 6e 74 65 72 20`
+If you are not in IT you should look like this:  😭 😭 😭 😭
+
+We will skip the complex part because JOMI is design for geek but aims to be user friendly as much as possible.
+_(Note: more years will past, more tool will be done to avoid this complexity for none coder user)_
 
 
 
+## So what now ?
+
+As you can see that become quickly to complexe for Hello world with JOMI tutorial.
+So I propose you to directly test some simple example in OMI directly where we will test all the main command that are available to you.
+
+Here is a demo of all of them:
+[ To Add later ]
+
+And here are the list of commands in the video with commentaries on each.
+[ To Add later ]
+
+
+
+
+------------------
+
+Rest of the tutorial 
+
+------------------------------------
 PS:https://onlineasciitools.com/convert-unicode-to-ascii  
 //in 4000 milliseconds, could you write 'Hello...' then wait that it is 1h13 and 20 seconds to write 'you'  
 tms:4000:sc:[[Hello...]]  ⏰1h13:20  [[You]]  
