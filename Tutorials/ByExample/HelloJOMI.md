@@ -1,4 +1,145 @@
- ➤ ☗ | ↓ ↑ _ ‾ ∨ ∧ ¬ ⊗ ≡ ≤ ≥ ⌃ ⌄ ⊓⇅ ⊔⇵ ⊏ ⊐ ↱↳ ∑ -no unity ⤒ ⤓ ⌈ ⌊ 🀲 🀸 ⌛ ⏰
+Welcome to you 🤗.
+
+If you see this page, it means that you want to learn about how to use JOMI.
+Or that you launch JOMI.jar for the first time 
+
+Bravo 🙌 
+
+So let's start, this tutorial.
+
+
+**In short: What is JOMI?**  
+Java Open Macro Input is a light version of the projet OMI.  
+The `JOMI.jar` only receive basic command(s) through the network (with UDP) and execute them when it reveices them.
+
+Example:
+- `url:http//google.com` will open google in your default browser.
+- `ms:l` will make a left click of your mouse (=`mouse stroke: left`)
+- `mm:0.75:0.9` will move the mouse at right down of your screen (=`mouse move at: 70% left right : 90% top down`)
+- `ks:a` will press and release the letter `a` (=`keyboard stroke: touch 'a'`)
+
+**Is it important for you to know it ?**
+It depends of what your plan with JOMI: 
+- If it you want to use it from OMI (future version) or from a third party application: `no`
+- If you just want to use OMI: `no` but at least you need to know how to launch it.
+- If you want to do crazy macro yourself without having to start an application from zero: `yes`
+- If you plan to master your computer with OMI: `yes`
+- ...
+
+But for this tutorial, I won't speak about OMI anymore: Just JOMI.
+
+# In very short without explication
+
+You don't have time and you like to learn by yourself ?
+
+1. [Download `JOMI`](http://openmacroinput.com/download)
+2. Launch it once then launch `StartJOMI.bat`
+3. Send UDP message on the IP and port display on the console. 
+4. Don't close it until you are done.
+5. See the [GitHub code](https://github.com/EloiStree/2020_04_10_JavaOpenMacroInputRuntime) for the manual or the end of this tutorial to lean the commmands
+6. _Enjoy and don't forget to suppor the projet or send me a beer if you like the app._
+
+
+# In Long with details
+
+## Download & Launch JOMI
+
+If not already done:
+1. [Download `JOMI`](http://openmacroinput.com/download)
+2. No pay-wall, you can skip the donation to download `JOMI.Jar`
+3. Launch `JOMI.jar` the first time
+4. Launch `StartJOMI.bat`
+5. Enjoy 🙂.
+
+_(Geek note: after the first launch. `JOMI.jar` will execute in 'hidden mode' if you need. You can use `StopJOMI.bat` to stop it)_
+
+
+**What do you means enjoy ?**
+I means. It is running and ready to listen to your orders.  
+Until you close the console (the black window).  
+
+But now he you need to send him command(s), like:   
+`tms:5000:sc: enter↓ enter↑ [[Hello world !!]] enter↓ enter↑`  
+That will write your first `Hello World` after 5 seconds.  
+
+Or `t:17-30-0-0:url:https://www.youtube.com/watch?v=G1IbRujko-A`
+That will launch 10H Gand Alf Sax at 17h30 (if you don't close the app until then).
+
+
+So let's learn how to do that.  
+
+## Send command(s) to JOMI
+
+To send message to the application you can use "what ever you want".    
+It just need to send small message on the network that we call UDP message  
+_(To a target computer that is running JOMI and that is not block by the 'firewall' on the port used)_  
+  
+The application I am using on Window is:  
+Packet Sender: https://packetsender.com/download#show  
+[![image](https://user-images.githubusercontent.com/20149493/147727453-623c00b9-7c75-436c-9123-a6835c742db3.png)](https://packetsender.com/download#show  )
+
+If you prefer on Android, you have a hundred of application:  
+[Google play search: UDP Sender](https://play.google.com/store/search?q=send%20udp&c=apps)  
+I will use this one:[UDP Sender / Receiver](https://play.google.com/store/apps/details?id=com.jca.udpsendreceive)  
+[![image](https://user-images.githubusercontent.com/20149493/147727474-37e702d1-5b2d-409b-b9e1-968b596e94f1.png)](https://play.google.com/store/apps/details?id=com.jca.udpsendreceive)
+
+_Note that you can do you own application like I did here:   
+[JOMI Demo on Android Store](https://play.google.com/store/apps/details?id=be.eloistree.jomi)
+[![image](https://user-images.githubusercontent.com/20149493/147727572-17dba9b6-9c3b-4064-9b13-cc5b1411cb9a.png)](https://play.google.com/store/apps/details?id=be.eloistree.jomi)
+
+
+By default the port is 2501 and the IP is the one of your computer.  
+![image](https://user-images.githubusercontent.com/20149493/147727361-b4293de8-e59f-49b2-8d10-c811adbeee4a.png)  
+(`127.0.0.1` as IP should work in most of the case if you don't know what to use)
+
+If you followed the previous step you should have the `ip` and the `port` here:
+![image](https://user-images.githubusercontent.com/20149493/147723572-9d24242d-ab6f-47bf-87f2-96f038806275.png)
+At least if you are on the version of 2021-12-30, or near.
+
+
+### For UDP Sender (Window)
+0. Downloaded and install.
+_(I let's you do that. Classic download next > next > next > launch)_
+1. Check that JOMI is well open
+2. Enter the IP in the address field: `127.0.0.1`
+3. Enter the port in the port field: `2501`
+4. Enter the following line in the ASCII Field: `tms:3000:url:https://youtu.be/dQw4w9WgXcQ`
+6. Press `send`  
+
+![image](https://user-images.githubusercontent.com/20149493/147727836-cc49c4ec-d8e6-43d0-861e-ea75bd837c7e.png)
+
+And "Ta-Da" you have open your first web page with JOMI.  
+If you want to do the 'Hello World' classic example, you can use the following line(s):
+`sc: enter↓ enter↑ [[Hello world !!]] enter↓ enter↑`
+
+
+
+
+### For the junior developer: Python example
+1. Download Python: https://www.python.org/downloads/
+2. Create a file `HelloWorld.py`
+3. Be sure that JOMI is running.
+4. Launch the file with this command: `python HelloWorld.py`
+
+File: `HelloWorld.py`
+```
+import socket
+UDP_IP = "127.0.0.1"
+UDP_PORT = 2501
+MESSAGE = "tms:5000:sc: enter↓ enter↑ [[Hello world !!!]] enter↓ enter↑"
+print("UDP target IP: %s" % UDP_IP)
+print("UDP target port: %s" % UDP_PORT)
+print("message: %s" % MESSAGE)
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+sock.sendto(MESSAGE.encode(), (UDP_IP, UDP_PORT))
+```
+
+
+
+
+**Unicode you will use:**  
+↓ ↑ ⇅ ⇵ ⌛ ⏰
+
  
 Demonstration tutorial by example of JOMI
 
