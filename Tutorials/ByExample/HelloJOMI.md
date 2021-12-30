@@ -3,6 +3,17 @@
 Demonstration tutorial by example of JOMI
 
 
+
+PS:https://onlineasciitools.com/convert-unicode-to-ascii
+//in 4000 milliseconds, could you write 'Hello...' then wait that it is 1h13 and 20 seconds to write 'you'
+tms:4000:sc:[[Hello...]]  ⏰1h13:20  [[You]]
+//Same but with ASCII code instead of Unity for UDP Package Sender
+tms:4000:sc:[[Hello...]]  \e2\8f\b01h13:20  [[You]]
+
+tms:4000:sc:left\e2\87\b5 left\e2\87\b5 
+tms:4000:sc:left\e2\87\b5 left\e2\87\b5 
+
+
 Demo of JOMI and Android:
 - Download: https://play.google.com/store/apps/details?id=be.eloistree.jomi
 - Video: add it here
