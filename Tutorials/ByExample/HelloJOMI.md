@@ -1,3 +1,6 @@
+➤ ☗ | ↓ ← → ↑ _ ‾ ∨ ∧ ¬ ⊗ ≡ ≤ ≥ ⌃ ⌄ ⊓⇅ ⊔⇵ ⊏ ⊐ ↱↳ ∑ - ⤒ ⤓ ⌈ ⌊ 🀲 🀸 ⌛ ⏰ ▸ ▹ 🐁 🖱
+----------------------------
+
 Welcome to you 🤗.
 
 If you see this page, it means that you want to learn about how to use JOMI.
