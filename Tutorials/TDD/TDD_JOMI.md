@@ -216,7 +216,8 @@ To describe next:
 - `img2clip:`
 - `ksc:cmd1裂cmd2裂cmd3`
   - D
-
+-`em:` ? sill in the code ?
+-`lem:` ? sill in the code ?
 
 - JavaKeyShortcut list
 
