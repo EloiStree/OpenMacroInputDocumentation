@@ -192,6 +192,48 @@ Move
 - `ma:.1%:10px` Move add relatively to current cursor at 10% to right and 10px top
 
 
+
+----------------- 
+To describe next:
+
+- `wh:3` `wh:-3`
+  - D
+
+- `sc: copypast cut past copy `
+  - D
+- `sc: ctrl cmd ctrlcmd`
+  - D
+- `exit` `stop`
+- `past: some text `
+- `clipboard:copypast`
+- `clipboard:copy`
+- `clipboard:past`
+- `clipboard:cut`
+- `url:`
+- `unicode:`
+- `unicode:u+`
+- `cmd:`
+- `img2clip:`
+- `ksc:cmd1裂cmd2裂cmd3`
+  - D
+
+
+- JavaKeyShortcut list
+
+
+Could be usefull (not coded)
+
+- `sc: 📋<url:`
+- `sc: 📋<filepath:`
+- `sc: 📋<` copy
+- `sc: 📋>` past
+- `sc: ✂` cut
+- `sc: ☸up:3`
+- `sc: ☸down:3`
+- `sc: copypast↓ copypast↑` should be replace by  `sc: clipboard` ore remove
+
+ ← → 
+-----------
 - ` `
 - ` `
 - ` `
